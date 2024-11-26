@@ -330,7 +330,7 @@ let the revolution to continue and keep the project growing and thriving. Thank 
 <!-- BONUSTRACK -->
 ## Bonus Track
 
-<a><img src="images/blood-sweat-tears256.png" alt="Bonus" width="25" height="25"> Bloods, Sweat and Tears:</a>
+<a><img src="images/blood-sweat-tears256.png" alt="Bonus" width="25" height="25"> Bloods, Sweat and Tears (血淚史):</a>
 
 This project is by no means an easy task especially when you are the only member in your team. Different SMF types have different record structures. So, countless days and nights had been spent in diving into IBM and Broadcom websites, watching YouTube for related materials and taking free online courses such as data science, Python, linear algebra, R, how to build an Python app etc.. SMF type 30, 70-78, 99, 110 and 123 for z/OS version 2.4 and CICS version 5.5 have been chosen for the first phase of the project.
 
