@@ -374,7 +374,7 @@ As the zDT Learner's edition offer I have been long waiting for did not happen a
 [license-shield]: https://img.shields.io/github/license/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
 [license-url]: https://github.com/franfcwong/zos-smf-dashboard/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/franfcwong
+[linkedin-url]: https://linkedin.com/in/francis-wong-b9123020
 [product-screenshot]: images/smf-to-dashboard.png
 [product-screenshot-gif]: images/screenshot.gif
 [Python.io]: https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white
