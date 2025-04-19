@@ -202,9 +202,36 @@ dictionary utility program, DFHMNDUP, and then expand CICS subtype 1 SMF data wi
     EXPAND
   /*
   ``` 
-2. Generate JSON files in USS with my purpose-built C modules for each SMF type.
+2. Generate JSON files in USS with my purpose-built C programs for each SMF type.
 
-    _Note: Please contact me by mail if you have interest on this module._
+    2.1. Compile and linkedit the programs and store the load modules in the load library.
+    ```sh
+    //*
+    //*        Compile and Linkedit job for C program
+    //*
+    //PROCS    JCLLIB ORDER=(CBC.SCCNPRC)                                   
+    //DOCLG    EXEC  PROC=EDCQCB,                                           
+    //         INFILE='<your C program source library(member)>',            
+    //         OUTFILE='<your program loadlib(member)>,DISP=SHR',
+    //         CPARM='OPTFILE(DD:OPTIONS)'                   
+    //OPTIONS  DD  *
+      LONGNAME FLOAT(HEX)
+      LANGLVL(EXTENDED) sscom dll
+      DEFINE(_ALL_SOURCE)
+      SEARCH(//'<your C header file library>')
+    /*
+    //COMPILE.SYSLIN DD DISP=SHR,DSN=<your object lib(member)>
+    //BIND.SYSLIB  DD DISP=SHR,DSN=CEE.SCEEBND2
+    //             DD DISP=SHR,DSN=<your object lib(member)>
+    //BIND.SYSLIN  DD DSN=CEE.SCEELIB(CELQS003),DISP=SHR
+    //BIND.SYSIN   DD *
+      ENTRY CELQSTRT
+      INCLUDE SYSLIB(<member>)
+      NAME <member>(R)
+    //
+    ```
+
+    2.2. Run the load module to convert the VB SMF file to JSON.
 
     ```sh
     //*
@@ -213,7 +240,7 @@ dictionary utility program, DFHMNDUP, and then expand CICS subtype 1 SMF data wi
     //SMF2JSON EXEC PGM=<conversion-progam-name>,REGION=0M
     //STEPLIB  DD   DISP=SHR,DSN=CEE.SCEERUN
     //         DD   DISP=SHR,DSN=CEE.SCEERUN2
-    //         DD   DISP=SHR,DSN=<conversion-program-library>
+    //         DD   DISP=SHR,DSN=<your program loadlib>
     //SYSPRINT DD   SYSOUT=*
     //SYSOUT   DD   SYSOUT=*
     //SYSERR   DD   SYSOUT=*
@@ -223,9 +250,9 @@ dictionary utility program, DFHMNDUP, and then expand CICS subtype 1 SMF data wi
     //         PATHMODE=(SIRWXU,SIRWXG),
     //         PATN=<path-and-your-JSON-file>
     ```
-3. Ftp JSON files from mainframe USS, i.e. path-and-your-JSON-file to the target platform.
+2. Ftp JSON files from mainframe USS, i.e. path-and-your-JSON-file to the target platform.
 
-4. Run my loading DB Python program for each SMF type to upload the data to Postgresql DB. 
+3. Run my loading DB Python program for each SMF type to upload the data to Postgresql DB. 
 
     _Note: Please contact me by mail if you have interest on this DB loading programs._
 
