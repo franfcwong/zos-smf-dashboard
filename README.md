@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GPL License][license-shield]][license-url]
+[![License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -371,7 +371,8 @@ As the zDT Learner's edition offer I have been long waiting for did not happen a
 [stars-url]: https://github.com/franfcwong/zos-smf-dashboard/stargazers
 [issues-shield]: https://img.shields.io/github/issues/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
 [issues-url]: https://github.com/franfcwong/zos-smf-dashboard/issues
-[license-shield]: https://img.shields.io/github/license/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/license-GPLv3-orange.svg?style=for-the-badge
+[unused_shield]: https://img.shields.io/github/license/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
 [license-url]: https://github.com/franfcwong/zos-smf-dashboard/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/francis-wong-b9123020
