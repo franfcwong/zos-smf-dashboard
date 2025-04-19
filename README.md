@@ -203,8 +203,10 @@ dictionary utility program, DFHMNDUP, and then expand CICS subtype 1 SMF data wi
   /*
   ``` 
 2. Generate JSON files in USS with my purpose-built C programs for each SMF type.
+   
+    2.1. Create 2 PDSE files, one for C file, one for C header files and both are of LRECL = 256, RECFM = FB. Then, upload the files to the corresponding PDSE files.
 
-    2.1. Compile and linkedit the programs and store the load modules in the load library.
+    2.2. Compile and linkedit the programs and store the load modules in the load library.
     ```sh
     //*
     //*        Compile and Linkedit job for C program
@@ -231,7 +233,7 @@ dictionary utility program, DFHMNDUP, and then expand CICS subtype 1 SMF data wi
     //
     ```
 
-    2.2. Run the load module to convert the VB SMF file to JSON.
+    2.3. Run the load module to convert the VB SMF file to JSON.
 
     ```sh
     //*
