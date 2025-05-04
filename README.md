@@ -406,7 +406,7 @@ As the zDT Learner's edition offer I have been long waiting for did not happen a
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/francis-wong-b9123020
 [product-screenshot]: images/smf-to-dashboard.png
-[product-screenshot-gif]: images/screenshot.gif
+[product-screenshot-gif]: images/screen4a.gif
 [Python.io]: https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
 [Postgresql.io]: https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white
