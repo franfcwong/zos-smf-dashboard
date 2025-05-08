@@ -55,6 +55,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#bonus-track">Bonus Track</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -368,6 +369,12 @@ At the beginning of the project, I had painfully paid IBM for a personal zDT lic
 As the zDT Learner's edition offer I have been long waiting for did not happen and real SMF data is unlikely to get hold of, building a model that can simulate the real world workload and then generate SMF data json files became my only option. Although there is still a lot of room for improvement in my model, I can still continue the app development using my model at least. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Fran Wong - franfcwong@hotmail.com
 
 
 
