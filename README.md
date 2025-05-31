@@ -100,7 +100,7 @@ The overview of the project is shown below:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps. (The z/OS library has been uploaded to CBTTape.org with FILE # 1064. Before the CBT formal release, you can download it from https://www.cbttape.org/ftp/updates/CBT1064.zip.)
 
 ### Prerequisites
 
@@ -407,8 +407,8 @@ Fran Wong - franfcwong@hotmail.com
 [stars-url]: https://github.com/franfcwong/zos-smf-dashboard/stargazers
 [issues-shield]: https://img.shields.io/github/issues/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
 [issues-url]: https://github.com/franfcwong/zos-smf-dashboard/issues
-[license-shield]: https://img.shields.io/badge/license-GPLv3-orange.svg?style=for-the-badge
-[unused_shield]: https://img.shields.io/github/license/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
+[unused-license-shield]: https://img.shields.io/badge/license-GPLv3-orange.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/franfcwong/zos-smf-dashboard.svg?style=for-the-badge
 [license-url]: https://github.com/franfcwong/zos-smf-dashboard/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/francis-wong-b9123020
